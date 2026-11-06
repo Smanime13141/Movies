@@ -1,0 +1,46 @@
+html{
+    height:100%;
+}
+body{
+    background-color:blue
+    ;
+    margin:0;
+    height:100%;
+}
+header{
+    display:flex;
+    background-color:black;
+    color:white;
+    justify-content:space-between;
+    align-content: center;
+
+}
+a{
+    color:white;
+    padding:20x;
+    text-decoration:none;
+}
+main{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+.Square{
+    border: solid 1px black;
+    height: 100px;
+    width:100px;
+    background-color:white;
+}
+.container{
+    display: grid;
+    flex-wrap: wrap;
+    gap:1px;
+    grid-template-columns:repeat(3,1fr);
+}
+
+#Player-data{
+    display: flex;
+}
